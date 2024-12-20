@@ -97,5 +97,16 @@ export const eventsData = [
       new URL('../assets/EveryDropCountsCharity/EDCC5.jpeg', import.meta.url).href,
       new URL('../assets/EveryDropCountsCharity/EDCC6.jpeg', import.meta.url).href,
     ]
+  },
+  {
+    id: 'event5',
+    name: 'Flood Victims Support Drive',
+    date: 'October 28, 2024',
+    amountCollected: 430,
+    description: 'In response to the devastating floods in Kelantan that left many families displaced, we launched an emergency relief campaign to provide essential support. Through community donations, we were able to distribute emergency supplies including clean drinking water, non-perishable food items, clothing, blankets, and basic hygiene necessities. Our initiative focused on immediate relief for affected families who lost their homes and belongings, ensuring they had access to fundamental necessities during this challenging period.',
+    participants: ['Mohamed', 'Eshan Amir','','','','','','','Aiman Maqsood'],
+    photos: [
+      
+    ]
   }
 ];
