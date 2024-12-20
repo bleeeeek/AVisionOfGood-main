@@ -51,7 +51,7 @@ export const eventsData = [
     date: 'June 15, 2024',
     amountCollected: 1040,
     description: 'Through community collaboration, we successfully raised RM1,040 to support critical utility expenses for a local madrasah. The initiative was further enhanced by a remarkable contribution from a refugee family who donated 25kg of Qurbani meat. This meat was efficiently distributed among local madrasahs and orphanages, demonstrating the profound impact of community solidarity regardless of personal circumstances.',
-    participants: ['Mohamed','Hamaad','','','','','','','Sidrah Ahmed','Habiba Hassouna','Aaliyah Anwar',''],
+    participants: ['Mohamed','Hammad Dulvi','','','','','','','Sidrah Ahmed','Habiba Hassouna','Aaliyah Anwar',''],
     photos: [
       new URL('../assets/MadrasahCharityDay/MCD1.jpeg', import.meta.url).href,
       new URL('../assets/MadrasahCharityDay/MCD2.jpeg', import.meta.url).href,
