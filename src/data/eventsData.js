@@ -5,7 +5,7 @@ export const eventsData = [
     date: 'April 2, 2024 - April 3, 2024',
     amountCollected: 4213.04,
     description: 'During this two-day Ramadan charitable initiative, our team successfully accomplished multiple objectives: 1) Distributed Qurans and monthly ration supplies to support local madrasas in their educational mission, 2) Provided essential care packages and provisions to meet monthly requirements of local orphanages, 3) Supported the disabled community through clothing donations to sustainable resale centers, and 4) Distributed 250 comprehensive iftar packages to community members during Ramadan. This collaborative effort exemplified the spirit of giving and community support during the holy month.',
-    participants: ['Mohamed', 'Eshan Amir', 'Refaat Al-Saei', 'Muhammad Zain Fawad', 'Hammad Dulvi','Luqmaan Abdula Amodo','Umar Imran','Mohammed Abdur Rahman','Izhan Zahid','Muhammad Affiq','','','','','','','Aiman Maqsood','Khaula Rama','Samira Abdalla','Sadine Elsayed',],
+    participants: ['Mohamed', 'Eshan Amir', 'Refaat Al-Saei', 'Muhammad Zain Fawad', 'Hamaad Dulvi','Luqmaan Abdula Amodo','Umar Imran','Mohammed Abdur Rahman','Izhan Zahid','Muhammad Affiq','','','','','','','Aiman Maqsood','Khaula Rama','Samira Abdalla','Sadine Elsayed',],
     photos: [
       new URL('../assets/VOG1/Ramadan-1.JPG', import.meta.url).href,
       new URL('../assets/VOG1/Ramadan-2.JPG', import.meta.url).href,
@@ -51,7 +51,7 @@ export const eventsData = [
     date: 'June 15, 2024',
     amountCollected: 1040,
     description: 'Through community collaboration, we successfully raised RM1,040 to support critical utility expenses for a local madrasah. The initiative was further enhanced by a remarkable contribution from a refugee family who donated 25kg of Qurbani meat. This meat was efficiently distributed among local madrasahs and orphanages, demonstrating the profound impact of community solidarity regardless of personal circumstances.',
-    participants: ['Mohamed','Hammad Dulvi','','','','','','','Sidrah Ahmed','Habiba Hassouna','Aaliyah Anwar',''],
+    participants: ['Mohamed','Hamaad Dulvi','','','','','','','Sidrah Ahmed','Habiba Hassouna','Aaliyah Anwar',''],
     photos: [
       new URL('../assets/MadrasahCharityDay/MCD1.jpeg', import.meta.url).href,
       new URL('../assets/MadrasahCharityDay/MCD2.jpeg', import.meta.url).href,
