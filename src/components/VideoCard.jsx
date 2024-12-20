@@ -1,4 +1,5 @@
 import React from 'react';
+import videoSource from '../assets/VOG3/WhatsApp Video 2024-12-19 at 10.28.23 PM.mp4'
 
 function VideoCard() {
   return (
@@ -9,7 +10,7 @@ function VideoCard() {
           <video
             className="w-full h-full rounded-lg"
             controls
-            src="/src/assets/VOG3/WhatsApp Video 2024-12-19 at 10.28.23 PM.mp4"
+            src={videoSource}
           >
             Your browser does not support the video tag.
           </video>

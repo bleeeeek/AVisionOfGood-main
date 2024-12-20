@@ -7,7 +7,7 @@ export const eventsData = [
     description: 'During this two-day Ramadan charitable initiative, our team successfully accomplished multiple objectives: 1) Distributed Qurans and monthly ration supplies to support local madrasas in their educational mission, 2) Provided essential care packages and provisions to meet monthly requirements of local orphanages, 3) Supported the disabled community through clothing donations to sustainable resale centers, and 4) Distributed 250 comprehensive iftar packages to community members during Ramadan. This collaborative effort exemplified the spirit of giving and community support during the holy month.',
     participants: ['Mohamed', 'Eshan Amir', 'Refaat Al-Saei', 'Muhammad Zain Fawad', 'Hammad Dulvi','Luqmaan Abdula Amodo','Umar Imran','Mohammed Abdur Rahman','Izhan Zahid','Muhammad Affiq','','','','','','','Aiman Maqsood','Khaula Rama','Samira Abdalla','Sadine Elsayed',],
     photos: [
-      '/src/assets/VOG1/Ramadan-1.JPG','/src/assets/VOG1/Ramadan-2.JPG','/src/assets/VOG1/Ramadan-3.JPG',
+      './assets/VOG1/Ramadan-1.JPG','/src/assets/VOG1/Ramadan-2.JPG','/src/assets/VOG1/Ramadan-3.JPG',
       '/src/assets/VOG1/Ramadan-4.JPG','/src/assets/VOG1/Ramadan-5.JPG',
       '/src/assets/VOG1/Ramadan-6.JPG',
       '/src/assets/VOG1/Ramadan-7.JPG',
