@@ -86,7 +86,7 @@ export const eventsData = [
     name: 'Every Drop Counts Charity',
     date: 'October 28, 2024',
     amountCollected: 5548.02,
-    description: 'The "Every Drop Counts" initiative successfully raised RM5,000 for the construction of a dedicated wudu facility for sisters in a community. This project addresses the current lack of private ablution spaces for female members, aiming to provide a dignified and appropriate facility for religious practices.',
+    description: 'The "Every Drop Counts" initiative successfully raised RM5,000 for the construction of a dedicated wudu facility for sisters in a community. This project addresses the current lack of private ablution spaces for female members, aiming to provide a dignified and appropriate facility.',
     participants: ['Mohamed', 'Eshan Amir','','','','','','','Habiba Hassouna','Mahrukh', 'Aaliyah Anwar','Aiman Maqsood','Fatima Ramtoola','Rizq Ar Rahman (Team)'],
     photos: [
       new URL('../assets/EveryDropCountsCharity/EDCC0.jpeg', import.meta.url).href,
