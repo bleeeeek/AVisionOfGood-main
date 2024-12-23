@@ -19,7 +19,7 @@ function Footer() {
           </div>
           
           <div className="flex flex-col items-center md:items-end">
-            <p className="text-gray-600">2023-2024 A Vision of Good</p>
+            <p className="text-gray-600">2024 A Vision of Good</p>
             <div className="mt-2">
               <span className="text-gray-600 font-arabic">رَبَّنَا ٱبۡنِ لَنَا عِندَكَ بُيُوتً۬ا فِى ٱلۡجَنَّةِ</span>
             </div>
