@@ -23,10 +23,16 @@ function PhotoGallery({ events }) {
       transition={{ duration: 0.5 }}
       className="mb-12 p-4 md:p-12 bg-gray-50 rounded-xl shadow-lg"
     >
-      <h2 className="text-2xl md:text-4xl font-light tracking-tight mb-8" style={{ color: '#2b1c12' }}>
+      <h2 className="text-2xl md:text-4xl font-light tracking-tight mb-4" style={{ color: '#2b1c12' }}>
         Photo Gallery
       </h2>
       
+      <p className="text-center mb-8 text-gray-600 italic max-w-3xl mx-auto">
+        Alhamdulillah, while we were deeply engaged in serving the cause of Allah ﷻ, 
+        our focus remained on the work at hand rather than documentation. We ask Allah ﷻ 
+        to accept our humble efforts and pray that these simple captures convey the spirit of our service.
+      </p>
+
       <div 
         ref={scrollRef}
         className="h-[80vh] overflow-hidden hover:overflow-y-auto transition-all duration-300 scrollbar-hide"
