@@ -96,10 +96,14 @@ export const eventsData = [
       new URL('../assets/EveryDropCountsCharity/EDCC4.jpeg', import.meta.url).href,
       new URL('../assets/EveryDropCountsCharity/EDCC5.jpeg', import.meta.url).href,
       new URL('../assets/EveryDropCountsCharity/EDCC6.jpeg', import.meta.url).href,
+      new URL('../assets/EveryDropCountsCharity/EDCC7.jpeg', import.meta.url).href,
+      new URL('../assets/EveryDropCountsCharity/EDCC8.jpeg', import.meta.url).href,
+      new URL('../assets/EveryDropCountsCharity/EDCC9.gif', import.meta.url).href,
+      new URL('../assets/EveryDropCountsCharity/EDCC10.gif', import.meta.url).href,
     ]
   },
   {
-    id: 'event5',
+    id: 'event6',
     name: 'Flood Victims Support Drive',
     date: 'December 29, 2024',
     amountCollected: 720,
