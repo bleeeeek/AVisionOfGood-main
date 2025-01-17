@@ -7,7 +7,6 @@ import EventDetails from './components/EventDetails';
 import PhotoGallery from './components/PhotoGallery';
 import { eventsData } from './data/eventsData';
 import Footer from './components/Footer';
-import VideoCard from './components/VideoCard.jsx';
 
 function App() {
   return (
@@ -29,10 +28,6 @@ function App() {
               <EventDetails event={event} />
             </Element>
           ))}
-        </section>
-
-        <section className="mb-12 md:mb-24">
-          <VideoCard />
         </section>
 
         <section>
