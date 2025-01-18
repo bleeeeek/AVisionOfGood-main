@@ -16,7 +16,7 @@ function GifPlayer({ gifs }) {
   if (!gifs || gifs.length === 0) return null;
 
   return (
-    <div className="relative w-full h-96 overflow-hidden rounded-lg">
+    <div className="relative w-full h-[600px] overflow-hidden rounded-lg">
       {gifs.map((gif, index) => (
         <img
           key={gif}
