@@ -75,7 +75,6 @@ export const eventsData = [
     participants: ['Mohamed', 'Mohammed Abdur Rahman'],
     photos: [
       new URL('../assets/QuranIslamicBooksDonation/QIB1.jpeg', import.meta.url).href,
-      new URL('../assets/QuranIslamicBooksDonation/QIB2.jpeg', import.meta.url).href,
       new URL('../assets/QuranIslamicBooksDonation/QIB3.jpeg', import.meta.url).href,
       new URL('../assets/QuranIslamicBooksDonation/QIB4.jpeg', import.meta.url).href,
       new URL('../assets/QuranIslamicBooksDonation/QIB5.jpeg', import.meta.url).href,
@@ -94,12 +93,14 @@ export const eventsData = [
       new URL('../assets/EveryDropCountsCharity/EDCC2.jpeg', import.meta.url).href,
       new URL('../assets/EveryDropCountsCharity/EDCC3.jpeg', import.meta.url).href,
       new URL('../assets/EveryDropCountsCharity/EDCC4.jpeg', import.meta.url).href,
-      new URL('../assets/EveryDropCountsCharity/EDCC5.jpeg', import.meta.url).href,
-      new URL('../assets/EveryDropCountsCharity/EDCC6.jpeg', import.meta.url).href,
-      new URL('../assets/EveryDropCountsCharity/EDCC7.jpeg', import.meta.url).href,
-      new URL('../assets/EveryDropCountsCharity/EDCC8.jpeg', import.meta.url).href,
+      
       new URL('../assets/EveryDropCountsCharity/EDCC9.gif', import.meta.url).href,
       new URL('../assets/EveryDropCountsCharity/EDCC10.gif', import.meta.url).href,
+    ],
+    fullSizePhotos: [
+      new URL('../assets/EveryDropCountsCharity/EDCC8.jpeg', import.meta.url).href,
+      new URL('../assets/EveryDropCountsCharity/EDCC5.jpeg', import.meta.url).href,
+      new URL('../assets/EveryDropCountsCharity/EDCC6.jpeg', import.meta.url).href,
     ]
   },
   {
