@@ -32,6 +32,20 @@ function EventDetails({ event }) {
       <h2 className="text-2xl md:text-4xl font-light tracking-tight mb-4" style={{ color: '#2b1c12' }}>{event.name}</h2>
       <p className="text-base md:text-lg mb-8 md:mb-12 font-light leading-relaxed max-w-3xl" style={{ color: '#2b1c12' }}>{event.description}</p>
 
+      {/* Display full-size photos if they exist */}
+      {event.fullSizePhotos && event.fullSizePhotos.length > 0 && (
+        <div className="mb-8">
+          {event.fullSizePhotos.map((photo, index) => (
+            <img
+              key={`full-size-${index}`}
+              src={photo}
+              alt={`${event.name} full size photo ${index + 1}`}
+              className="w-full object-contain rounded-lg shadow-md mb-8"
+            />
+          ))}
+        </div>
+      )}
+
       {/* Add GIF Player if there are GIFs */}
       {gifs.length > 0 && (
         <div className="mb-8">
