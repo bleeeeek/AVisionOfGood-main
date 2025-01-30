@@ -4,7 +4,8 @@ import Header from './components/Header';
 import DonationChart from './components/DonationChart';
 import EventsList from './components/EventsList';
 import EventDetails from './components/EventDetails';
-import PhotoGallery from './components/PhotoGallery';
+import MessageBanner from './components/MessageBanner';
+import MediaGallery from './components/MediaGallery';
 import { eventsData } from './data/eventsData';
 import Footer from './components/Footer';
 
@@ -30,8 +31,12 @@ function App() {
           ))}
         </section>
 
+        <section className="mb-12 md:mb-24">
+          <MessageBanner />
+        </section>
+
         <section>
-          <PhotoGallery events={eventsData} />
+          <MediaGallery events={eventsData} />
         </section>
       </main>
 

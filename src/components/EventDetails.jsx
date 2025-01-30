@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import GifPlayer from './GifPlayer';
 import videoSource from '../assets/VOG3/WhatsApp Video 2024-12-19 at 10.28.23 PM.mp4';
+
 function EventDetails({ event }) {
   const arabicPhrases = [
     { arabic: "رَبَّنَا ظَلَمْنَا أَنفُسَنَا وَإِن لَّمْ تَغْفِرْ لَنَا وَتَرْحَمْنَا لَنَكُونَنَّ مِنَ الْخَاسِرِينَ", translation: "Our Lord! We have wronged ourselves. If You forgive us not, and bestow not upon us Your Mercy, we shall certainly be of the losers. (Quran 7:23)" },
@@ -10,7 +11,8 @@ function EventDetails({ event }) {
     { arabic: "رَّبَّنَا عَلَيْكَ تَوَكَّلْنَا وَإِلَيْكَ أَنَبْنَا وَإِلَيْكَ الْمَصِيرُ ", translation: "Our Lord! In You we put our trust, and to You we turn in repentance, and to You is (our) final return.  (Quran 60:4)" },
     { arabic: "فَاطِرَ السَّمَاوَاتِ وَالأَرْضِ أَنتَ وَلِيِّي فِي الدُّنُيَا وَالآخِرَةِ تَوَفَّنِي مُسْلِمًا وَأَلْحِقْنِي بِالصَّالِحِينَ ", translation: "“The Creator of the heavens and the earth! You are my Wali (Protector, Helper, Supporter, Guardian, etc.) in this world and in the Hereafter, cause me to die as a Muslim (the one submitting to Your Will), and join me with the righteous.”  (Quran 12:101)" },
     { arabic: "رَبِّ اِنِّىۡۤ اَعُوۡذُ بِكَ اَنۡ اَسۡـئَلَكَ مَا لَـيۡسَ لِىۡ بِهٖ عِلۡمٌ​ؕ وَاِلَّا تَغۡفِرۡ لِىۡ وَتَرۡحَمۡنِىۡۤ اَكُنۡ مِّنَ الۡخٰسِرِيۡنَ", translation: "O my Lord! I seek refuge with You from asking You that of which I have no knowledge. And unless You forgive me and have mercy on me, I would indeed be one of the losers." },
-    { arabic: "اللهم اغفر لي، وارحمني، واهدني، وعافني، وارزقني", translation: "O Allah! Forgive me, have mercy on me, guide me, guard me against harm and provide me with sustenance and salvation" }
+    { arabic: "اللهم اغفر لي، وارحمني، واهدني، وعافني، وارزقني", translation: "O Allah! Forgive me, have mercy on me, guide me, guard me against harm and provide me with sustenance and salvation" },
+    { arabic: "اَللّٰهُمَّ بَاعِدْ بَيْنِيْ وَبَيْنَ خَطَايَاىَ كَمَا بَاعَدْتَ بَيْنَ الْمَشْرِقِ وَالْمَغْرِبِ ، اللَّهُمَّ نَقِّنِيْ مِنَ الْخَطَايَا كَمَا يُنَقَّى الثَّوْبُ الأَبْيَضُ مِنَ الدَّنَسِ ، اللَّهُمَّ اغْسِلْنِيْ مِنْ خَطَايَاىَ بِالْمَاءِ وَالثَّلْجِ وَالْبَرَدِ.", translation: "O Allah, distance me from my sins as You have distanced the East from the West. O Allah, purify me from my sins as white cloth is purified from dirt. O Allah, wash away my sins with water, snow and hail." },
   ];
 
   // Separate GIFs from other photos
@@ -31,54 +33,6 @@ function EventDetails({ event }) {
     >
       <h2 className="text-2xl md:text-4xl font-light tracking-tight mb-4" style={{ color: '#2b1c12' }}>{event.name}</h2>
       <p className="text-base md:text-lg mb-8 md:mb-12 font-light leading-relaxed max-w-3xl" style={{ color: '#2b1c12' }}>{event.description}</p>
-
-      {/* Display full-size photos if they exist */}
-      {event.fullSizePhotos && event.fullSizePhotos.length > 0 && (
-        <div className="mb-8">
-          {event.fullSizePhotos.map((photo, index) => (
-            <img
-              key={`full-size-${index}`}
-              src={photo}
-              alt={`${event.name} full size photo ${index + 1}`}
-              className="w-full object-contain rounded-lg shadow-md mb-8"
-            />
-          ))}
-        </div>
-      )}
-
-      {/* Add GIF Player if there are GIFs */}
-      {gifs.length > 0 && (
-        <div className="mb-8">
-          <GifPlayer gifs={gifs} />
-        </div>
-      )}
-
-      {/* Display regular photos in grid */}
-      {photos.length > 0 && (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-8">
-          {photos.map((photo, index) => (
-            <img
-              key={index}
-              src={photo}
-              alt={`${event.name} photo ${index + 1}`}
-              className="w-full h-48 object-cover rounded-lg shadow-md"
-            />
-          ))}
-        </div>
-      )}
-
-      {/* Add video if it's VOG 3.0 event */}
-      {event.id === 'event3' && (
-        <div className="max-w-3xl mx-auto mb-8">
-          <video
-            className="w-full rounded-lg shadow-md"
-            controls
-            src={videoSource}
-          >
-            Your browser does not support the video tag.
-          </video>
-        </div>
-      )}
 
       <div className="mb-8 md:mb-12">
         <h3 className="text-xl md:text-2xl font-light tracking-tight mb-4 md:mb-6" style={{ color: '#2b1c12' }}> Volunteers</h3>
