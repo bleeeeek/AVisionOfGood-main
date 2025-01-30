@@ -1,6 +1,6 @@
 import React from 'react';
 import { Element } from 'react-scroll';
-import { SpeedInsights } from "@vercel/speed-insights/next";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import Header from './components/Header';
 import DonationChart from './components/DonationChart';
 import EventsList from './components/EventsList';
