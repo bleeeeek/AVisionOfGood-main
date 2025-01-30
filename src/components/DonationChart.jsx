@@ -37,9 +37,13 @@ function DonationChart({ events }) {
         text: 'Donations Collected Per Event',
         color: 'black',
         font: {
-          size: 24,
+          size: window.innerWidth < 768 ? 16 : 24,
           family: "'Inter', sans-serif",
           weight: 300
+        },
+        padding: {
+          top: 10,
+          bottom: window.innerWidth < 768 ? 15 : 10
         }
       }
     },
@@ -48,25 +52,50 @@ function DonationChart({ events }) {
         ticks: { 
           color: 'black',
           font: {
+            size: window.innerWidth < 768 ? 9 : 12,
             family: "'Inter', sans-serif"
-          }
+          },
+          maxRotation: 75,
+          minRotation: 75,
+          padding: window.innerWidth < 768 ? 20 : 5,
+          autoSkip: false,
+          align: 'end'
+        },
+        grid: {
+          display: false
         }
       },
       y: {
+        beginAtZero: true,
         ticks: { 
           color: 'black',
           font: {
+            size: window.innerWidth < 768 ? 10 : 12,
             family: "'Inter', sans-serif"
-          }
+          },
+          callback: function(value) {
+            if (value === 0) return 'RM0';
+            if (window.innerWidth < 768) {
+              return 'RM' + (value/1000).toFixed(1) + 'k';
+            }
+            return 'RM ' + (value/1000).toFixed(1) + 'k';
+          },
+          maxTicksLimit: window.innerWidth < 768 ? 6 : 8
         },
         title: {
-          display: true,
-          text: 'Amount Collected (MYR)',
-          color: 'black',
-          font: {
-            family: "'Inter', sans-serif"
-          }
+          display: false
+        },
+        grid: {
+          color: 'rgba(0, 0, 0, 0.1)'
         }
+      }
+    },
+    layout: {
+      padding: {
+        left: window.innerWidth < 768 ? 5 : 20,
+        right: window.innerWidth < 768 ? 5 : 20,
+        top: window.innerWidth < 768 ? 5 : 20,
+        bottom: window.innerWidth < 768 ? 60 : 20
       }
     }
   };
@@ -79,7 +108,8 @@ function DonationChart({ events }) {
         backgroundColor: 'rgba(0, 0, 0, 0.1)',
         borderColor: '#2b1c12',
         borderWidth: 1,
-        borderRadius: 4
+        borderRadius: 4,
+        barThickness: window.innerWidth < 768 ? 20 : 30
       }
     ]
   };
