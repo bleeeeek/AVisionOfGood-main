@@ -55,11 +55,11 @@ function DonationChart({ events }) {
             size: window.innerWidth < 768 ? 9 : 12,
             family: "'Inter', sans-serif"
           },
-          maxRotation: 75,
-          minRotation: 75,
-          padding: window.innerWidth < 768 ? 20 : 5,
+          maxRotation: 45,
+          minRotation: 45,
+          padding: window.innerWidth < 768 ? 15 : 5,
           autoSkip: false,
-          align: 'end'
+          align: 'start'
         },
         grid: {
           display: false
@@ -80,7 +80,8 @@ function DonationChart({ events }) {
             }
             return 'RM ' + (value/1000).toFixed(1) + 'k';
           },
-          maxTicksLimit: window.innerWidth < 768 ? 6 : 8
+          maxTicksLimit: window.innerWidth < 768 ? 10 : 12,
+          stepSize: 1000
         },
         title: {
           display: false
@@ -109,7 +110,9 @@ function DonationChart({ events }) {
         borderColor: '#2b1c12',
         borderWidth: 1,
         borderRadius: 4,
-        barThickness: window.innerWidth < 768 ? 20 : 30
+        barThickness: window.innerWidth < 768 ? 15 : 25,
+        categoryPercentage: 0.8,
+        barPercentage: 0.9
       }
     ]
   };
