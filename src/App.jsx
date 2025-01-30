@@ -1,5 +1,6 @@
 import React from 'react';
 import { Element } from 'react-scroll';
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import Header from './components/Header';
 import DonationChart from './components/DonationChart';
 import EventsList from './components/EventsList';
@@ -12,6 +13,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="min-h-screen bg-white text-black">
+      <SpeedInsights />
       <Header />
       
       <main className="container mx-auto px-4 py-6 md:py-12">
