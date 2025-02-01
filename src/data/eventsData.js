@@ -125,8 +125,8 @@ export const eventsData = [
     id: 'event7',
     name: 'Vision of Good 5.0: Food Donation & Clothing Drive',
     date: 'February 15, 2025',
-    amountCollected: 1120.44,
-    description: 'A Vision of Good 5.0 aims to distribute 150 packed meals to the needy in Kuala Lumpur streets, along with collecting and distributing clothing donations to support those in need.',
+    amountCollected: 1530.44,
+    description: 'A Vision of Good 5.0 aims to distribute 150+ packed meals to the needy in Kuala Lumpur streets, along with collecting and distributing clothing donations to support those in need.',
     participants: [''],
     photos: [
     ]
