@@ -125,9 +125,12 @@ export const eventsData = [
     id: 'event7',
     name: 'Vision of Good 5.0: Food Donation & Clothing Drive',
     date: 'February 15, 2025',
-    amountCollected: 1530.44,
-    description: 'A Vision of Good 5.0 aims to distribute 150+ packed meals to the needy in Kuala Lumpur streets, along with collecting and distributing clothing donations to support those in need.',
-    participants: [''],
+    amountCollected: 1701.54,
+    description: 'A Vision of Good 5.0 aims to distribute 210 packed meals to the needy in Kuala Lumpur streets, along with collecting and distributing clothing donations to support those in need.',
+    participants: ['Mohamed', 'Syed Mohammed Eshan Amir', 'Muhammad Ahad', 'Adil Karim Barbhuiya', 'Umar Imran', 'Abdulrahman Musse',  
+ 'Muhammad Ali', 'Naseem Ali Mansoor Ali', 'Aslam Anis', 'Refaat Hatem', 'Omar El Shazly', 'Shafwan', 'Adnan Anwar',  
+ 'Azreen Latiff', 'Mossab lahsasna', 'Abdur Rahman Mahmoud', 'Ariffiandhika Aqila',,'','','','','','','', 'Henar Abdul Wahab', 'Aiman Maqsood', 'Waseemat Nabeeha',  
+ 'Amira Rashad Taha Omer', 'Ayesha Shajal','Kashish Rasool'],
     photos: [
     ]
   }
