@@ -1,7 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import GifPlayer from './GifPlayer';
-import videoSource from '../assets/VOG3/WhatsApp Video 2024-12-19 at 10.28.23 PM.mp4';
+import videoSourceVOG3 from '../assets/VOG3/WhatsApp Video 2024-12-19 at 10.28.23 PM.mp4';
+import videoSourceVOG5 from '../assets/VOG5/WhatsApp Video 2025-02-18 at 7.12.11 PM.mp4';
 
 function MediaGallery({ events }) {
   // Combine all photos from all events
@@ -31,7 +32,25 @@ function MediaGallery({ events }) {
           <video
             className="w-full rounded-lg shadow-md aspect-video"
             controls
-            src={videoSource}
+            src={videoSourceVOG3}
+          >
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </motion.div>
+
+      {/* VOG 5.0 Video Section */}
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        className="mb-12 p-4 md:p-8 bg-gray-50 rounded-xl shadow-lg"
+      >
+        <div className="max-w-2xl mx-auto">
+          <video
+            className="w-full rounded-lg shadow-md aspect-video"
+            controls
+            src={videoSourceVOG5}
           >
             Your browser does not support the video tag.
           </video>

@@ -64,7 +64,10 @@ export const eventsData = [
     amountCollected: 3658.32,
     description: 'Our community outreach initiative successfully provided essential support to 300 individuals in need. The distribution included comprehensive food packages, water supplies, and essential hygiene kits containing soap, dental care items, antiseptic bandages, diapers, and sanitary products. This initiative exemplified our commitment to addressing both nutritional and hygiene needs within our community.',
     participants: ['Mohamed', 'Eshan Amir', 'Naseem Ali','Refaat Al-Saei','Muhammad Ali','Mohammed Arman Kiliyamann','Hassan Gohar','Anjas Muhammeed','Ishraf','Adnan Anwar','Anjas Muhammeed','Mohammed Apsar','','','','','Fatima Ramtoola','Layla Elbadry ','Ayman Malik','Habiba Hassouna','Hena Henar','Aiman Maqsood','',''],
-    photos: []
+    photos: [],
+    videos: [
+      new URL('../assets/VOG3/WhatsApp Video 2024-12-19 at 10.28.23 PM.mp4', import.meta.url).href
+    ]
   },
   {
     id: 'event4',
@@ -126,7 +129,7 @@ export const eventsData = [
     name: 'Vision of Good 5.0: Food Donation & Clothing Drive',
     date: 'February 15, 2025',
     amountCollected: 1701.54,
-    description: 'A Vision of Good 5.0 aims to distribute 210 packed meals to the needy in Kuala Lumpur streets, along with collecting and distributing clothing donations to support those in need.',
+    description: 'Vision of Good 5.0 successfully distributed over 200 food packs and 300 pieces of clothing to underprivileged communities in Kuala Lumpur. This compassionate initiative provided essential sustenance and dignified clothing to vulnerable individuals, offering them much-needed comfort and support during challenging times.',
     participants: ['Mohamed', 'Syed Mohammed Eshan Amir', 'Muhammad Ahad', 'Adil Karim Barbhuiya', 'Umar Imran', 'Abdulrahman Musse',  
  'Muhammad Ali', 'Naseem Ali Mansoor Ali', 'Aslam Anis', 'Refaat Hatem', 'Omar El Shazly', 'Shafwan', 'Adnan Anwar',  
  'Azreen Latiff', 'Mossab lahsasna', 'Abdur Rahman Mahmoud', 'Ariffiandhika Aqila',,'','','','','','','', 'Henar Abdul Wahab', 'Aiman Maqsood', 'Waseemat Nabeeha',  
