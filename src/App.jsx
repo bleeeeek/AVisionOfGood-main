@@ -1,5 +1,6 @@
 import React from 'react';
 import { Element } from 'react-scroll';
+import { Analytics } from "@vercel/analytics/react";
 import Header from './components/Header';
 import DonationChart from './components/DonationChart';
 import EventsList from './components/EventsList';
@@ -36,6 +37,7 @@ function App() {
       </main>
 
       <Footer />
+      <Analytics />
     </div>
   );
 }
