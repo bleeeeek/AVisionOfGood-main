@@ -7,13 +7,13 @@ function EventsList({ events }) {
   const duplicatedEvents = [...events, ...events, ...events, ...events, ...events];
 
   return (
-    <div className="overflow-hidden py-12">
+    <div className="overflow-hidden py-16">
       <motion.div
         animate={{
           x: ["0%", "-50%"]  // Animate from 0% to -50% instead of fixed pixel values
         }}
         transition={{
-          duration: 40,
+          duration: 80,  // Increased from 40 to 80 seconds for slower movement
           repeat: Infinity,
           repeatType: "loop",
           ease: "linear"
@@ -21,7 +21,7 @@ function EventsList({ events }) {
         style={{
           width: "fit-content", // Ensure container fits content
           display: "flex",
-          gap: "1.5rem" // 6 in tailwind
+          gap: "2rem" // Increased gap between cards
         }}
       >
         {duplicatedEvents.map((event, index) => (
@@ -33,7 +33,7 @@ function EventsList({ events }) {
             className="cursor-pointer flex-shrink-0" // Add flex-shrink-0 to prevent shrinking
           >
             <div 
-              className="p-6 rounded-lg w-[240px] h-[120px] shadow-lg hover:scale-105 transition-all relative overflow-hidden"
+              className="p-8 rounded-lg w-[280px] h-[160px] shadow-lg hover:scale-105 transition-all relative overflow-hidden"
               style={{ backgroundColor: '#2b1c12' }}
             >
               <div 
@@ -53,8 +53,8 @@ function EventsList({ events }) {
                 }}
               />
               <div className="flex flex-col justify-between h-full relative z-10">
-                <h3 className="text-xl font-light tracking-tight text-white">{event.name}</h3>
-                <p className="text-sm text-gray-300 font-light">{event.date}</p>
+                <h3 className="text-xl font-light tracking-tight text-white mb-2">{event.name}</h3>
+                <p className="text-xs text-gray-300 font-light">{event.date}</p>
               </div>
             </div>
           </Link>
