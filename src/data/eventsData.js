@@ -201,7 +201,7 @@ export const eventsData = [
       'Muhammad Ahad',
       'Abdurrahman Mahmoud',
       'Dhika',
-      'Imad',
+      'Anonymous Brother',
       'Ibrahim',
       'Ali Zuber',
       'Noureddine Ahmad Najem',
