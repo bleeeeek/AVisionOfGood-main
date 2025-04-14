@@ -288,7 +288,7 @@ export const eventsData = [
     date: 'March 2025',
     amountCollected: 8670.00, 
     description: 'We extended support to a Syrian refugee family facing multiple challenges in their daily life. The father, who previously served both as a teacher and van driver at a refugee school, is now struggling with severe vision impairment that significantly impacts his ability to work and find employment. Despite having a three-bedroom house, the family\'s financial situation requires them to rent out two bedrooms, leaving the father to sleep in the living room while his wife and children share the remaining bedroom. His deteriorating eyesight, combined with his wife\'s illness, has placed additional strain on the family\'s ability to maintain a stable livelihood. This initiative aimed to provide crucial support to a family who once dedicated themselves to serving the refugee community through education.',
-    participants: ['Mohamed', 'Imad'],
+    participants: ['Mohamed', 'Anonymous Brother'],
     photos: []
   },
   {
@@ -297,7 +297,7 @@ export const eventsData = [
     date: 'March 31, 2025',
     amountCollected: 348.00,
     description: 'We had the honor of bringing joy to an Iraqi refugee family during Eid by providing new clothes for the entire family. The mother, who single-handedly cares for her children while their father remains in Iraq, faces significant challenges with two daughters requiring special care - the eldest daughter battling stomach cancer and the third daughter who was paralyzed after a tragic fall from the third floor. Despite these hardships, we were able to bring some happiness to this resilient family by providing new Eid clothes for the mother, her four daughters, and two sons. This initiative embodied the spirit of Eid by helping a family in need celebrate this blessed occasion with dignity and joy.',
-    participants: ['Mohamed', 'Imad', 'Ayesha', 'Aiman'],
+    participants: ['Mohamed', 'Anonymous Brother', 'Anonymous Sister', 'Anonymous Sister'],
     photos: []
   },
   {
