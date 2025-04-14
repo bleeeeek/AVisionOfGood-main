@@ -143,7 +143,7 @@ export const eventsData = [
     date: 'March 4 - March 20, 2025',
     amountCollected: 7640.71,
     description: 'In response to the humanitarian crisis in Sudan, we launched a critical aid initiative focused on the displaced refugees in Kasalla. Through the generous support of our community, we successfully: 1) Distributed 29 water tanks to provide clean and accessible water to displaced families, 2) Provided 1,450 iftar meals to refugees during Ramadan, ensuring they had nutritious meals to break their fast. This project exemplified our commitment to supporting those affected by conflict and displacement, bringing essential relief to our brothers and sisters in their time of need.',
-    participants: ['Mohamed', 'Abdullah Murtada', 'Aiman Maqsood', 'Amira Rashad Taha Omer'],
+    participants: ['Mohamed', 'Abdullah Murtada', 'Aiman Maqsood', 'Amira Rashad Taha Omer','SISA Team'],
     photos: [
       new URL('../assets/VOGS/VOGS-1.jpg', import.meta.url).href,
       new URL('../assets/VOGS/VOGS-2.jpg', import.meta.url).href,
